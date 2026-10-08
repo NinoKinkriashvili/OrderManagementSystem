@@ -63,6 +63,6 @@ Ambiguous Cases and Assumptions
 * decimal is used for monetary calculations.
 * An unknown or empty customer name returns an empty result.
 
-Author
-Nino Kinkriashvili
+### Author
+**Nino Kinkriashvili**  
 .NET | Backend Developer
