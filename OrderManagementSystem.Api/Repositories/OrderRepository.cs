@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using OrderManagementSystem.Api.Models;
 using OrderManagementSystem.Api.Repositories.Interfaces;
 
@@ -10,9 +11,12 @@ public class OrderRepository : IOrderRepository
 
     private static readonly JsonSerializerOptions _jsonOptions = new()
     {
-        PropertyNameCaseInsensitive = true
+        PropertyNameCaseInsensitive = true,
+        Converters =
+        {
+            new JsonStringEnumConverter()
+        }
     };
-
     public OrderRepository()
     {
         _filePath = Path.Combine(AppContext.BaseDirectory, "Data", "orders.json");
