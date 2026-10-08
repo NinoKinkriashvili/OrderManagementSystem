@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagementSystem.Api", "OrderManagementSystem.Api\OrderManagementSystem.Api.csproj", "{26C8060F-4D0E-45E7-B058-6E583CC4DCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagementSystem.Tests", "OrderManagementSystem.Tests\OrderManagementSystem.Tests.csproj", "{30D12F52-F800-41D4-BA78-5B5B4094C943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26C8060F-4D0E-45E7-B058-6E583CC4DCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C8060F-4D0E-45E7-B058-6E583CC4DCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C8060F-4D0E-45E7-B058-6E583CC4DCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C8060F-4D0E-45E7-B058-6E583CC4DCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D12F52-F800-41D4-BA78-5B5B4094C943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D12F52-F800-41D4-BA78-5B5B4094C943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D12F52-F800-41D4-BA78-5B5B4094C943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D12F52-F800-41D4-BA78-5B5B4094C943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+# Rider
+.idea/
+
+# .NET
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Local development
+launchSettings.json
+appsettings.Development.json
+
+# macOS
+.DS_Store
