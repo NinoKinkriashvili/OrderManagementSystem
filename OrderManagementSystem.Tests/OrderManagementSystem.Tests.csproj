@@ -20,4 +20,14 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <None Update="Data\orders.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OrderManagementSystem.Api\OrderManagementSystem.Api.csproj" />
+    </ItemGroup>
+
 </Project>
